@@ -1,0 +1,85 @@
+@import url(./style_vars.css);
+
+.headings {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 180px;
+}
+
+.heading-title-container,
+.heading-example-container,
+.heading-size-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 48px;
+}
+
+.home-heading-title,
+.home-heading-example,
+.home-heading-size {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--bold-weight);
+    line-height: 76px;
+    font-size: var(--biggest-font-size);
+}
+
+.h1-title,
+.h1-example,
+.h1-size {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--bold-weight);
+    line-height: 66px;
+    font-size: var(--header-size-H1);
+}
+
+.h2-title,
+.h2-example,
+.h2-size {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--bold-weight);
+    line-height: 58px;
+    font-size: var(--header-size-H2);
+}
+
+.h3-title,
+.h3-example,
+.h3-size {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--bold-weight);
+    line-height: 42px;
+    font-size: var(--header-size-H3);
+}
+
+.h4-title,
+.h4-example,
+.h4-size {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--bold-weight);
+    line-height: 30px;
+    font-size: var(--header-size-H4);
+}
+
+.h5-title,
+.h5-example,
+.h5-size {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--bold-weight);
+    line-height: 21px;
+    font-size: var(--header-size-H5);
+}
+
+.h6-title,
+.h6-example,
+.h6-size {
+    color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--bold-weight);
+    line-height: 18px;
+    font-size: var(--header-size-H6);
+}

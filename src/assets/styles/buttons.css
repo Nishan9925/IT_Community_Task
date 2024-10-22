@@ -1,0 +1,58 @@
+@import url("./style_vars.css");
+
+.buttons {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 40px;
+}
+
+.buttons-title {
+    font-family: "Roboto", sans-serif;
+    color: var(--title-text-color);
+    font-size: var(--title-size);
+    line-height: 36px;
+    font-weight: var(--bold-weight);
+}
+
+.buttons-container {
+    background-color: var(--font-bg-color);
+    padding: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+
+.primary-btn,
+.secondary-btn,
+.navbar-btn {
+    width: 170px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: var(--normal-weight);
+    font-size: var(--paragraph-big-size);
+    line-height: 18px;
+
+}
+
+.primary-btn:hover,
+.secondary-btn:hover,
+.navbar-btn:hover {
+    opacity: .6;
+}
+
+.primary-btn {
+    background-color: var(--primary-btn-bg-color);
+    color: var(--secondary-btn-bg-color);
+}
+
+.secondary-btn {
+    background-color: var(--secondary-btn-bg-color);
+    color: var(--primary-text-color);
+}
+
+.navbar-btn {
+    background-color: var(--navbar-btn-color);
+    color: var(--primary-btn-text-color);
+}

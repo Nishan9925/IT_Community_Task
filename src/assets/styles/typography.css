@@ -1,0 +1,69 @@
+@import url(../styles/style_vars.css);
+
+.typography {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column wrap;
+    gap: 40px;
+}
+
+.typography-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--title-size);
+    font-weight: var(--bold-weight);
+    line-height: 36px;
+    text-align: left;
+    color: var(--title-text-color);
+}
+
+.typography-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--font-bg-color);  
+    padding: 80px;
+}
+
+.typography-container-left {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 24px;
+    color: #111218;
+}
+
+.dnldIcon-img {
+    width: 50px;
+    height: 50px;
+}
+
+.typography-container-left-title {
+    font-family: "Roboto", sans-serif;
+    font-size: var(--secondary-size);
+    font-weight: var(--normal-weight);
+    line-height: 44px;
+    text-align: left;    
+}
+
+.typography-container-right {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.fontIcon-img {
+    width: 68px;
+    height: 52px;
+}
+
+.typography-container-right-title {
+    font-family: "Roboto", sans-serif;
+    font-size: var(--title-size);
+    font-weight: var(--light-weight);
+    line-height: 36px;
+    text-align: left;
+    color: var(--title-text-color);
+    text-decoration: underline;
+}
+

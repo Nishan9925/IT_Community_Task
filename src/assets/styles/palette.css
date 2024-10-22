@@ -1,0 +1,25 @@
+@import url(./style_vars.css);
+
+.palette {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 40px;
+}
+
+.palette-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: var(--bold-weight);
+    font-size: var(--title-size);
+    line-height: 36px;
+    color: var(--title-text-color);
+}
+
+.palettes-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.palette-item {
+    width: 148px;
+    height: 50px;
+}

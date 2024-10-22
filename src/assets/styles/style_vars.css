@@ -1,0 +1,49 @@
+:root {
+
+/* Background colors */
+    --primary-bg-color: #FFFFFF;
+    --secondary-bg-color: #F2F6EF;
+    --font-bg-color: #b7dfb9;
+
+/* Text colors */
+    --primary-text-color: #1D2130;
+    --title-text-color: #232536;
+    --secondary-text-color: #525560;
+    --download-text-color: #111218;
+    --logo-text-color: #394149;
+
+/* Text size  */
+    --biggest-font-size: 64px;
+    --header-size-H1: 56px;
+    --header-size-H2: 48px;
+    --header-size-H3: 28px;
+    --header-size-H4: 20px;
+    --header-size-H5: 14px;
+    --header-size-H6: 12px;
+    --secondary-size: 36px;
+    --title-size: 24px;
+    --paragraph-title-size: 18px;
+    --paragraph-big-size: 16px;
+    --paragraph-small-size: 14px;
+
+/* Text weights  */
+    --light-weight: 400;
+    --normal-weight: 500;
+    --bold-weight: 700;
+
+ /* Color palette list  */
+    --palette-first-color: #70C174;
+    --palette-second-color: #BEF3C0;
+    --palette-third-color: #EFF7F2;
+    --palette-fourth-color: #0B0706;
+    --palette-fifth-color: #0B0706;
+    --palette-sixth-color: #525560;
+    --palette-seventh-color: #EBF0F9;
+    --palette-eighth-color: #EBF0F9;
+
+ /* Button color  */
+    --primary-btn-bg-color: #70C174;
+    --primary-btn-text-color: #FFFFFF;
+    --secondary-btn-bg-color: #FFFFFF;
+    --navbar-btn-color: #1D2130;
+}

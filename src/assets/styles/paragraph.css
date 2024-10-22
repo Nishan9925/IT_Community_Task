@@ -1,0 +1,46 @@
+@import url(./style_vars.css);
+
+.paragraph {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-between; */
+    width: 100%;
+    gap: 64px;
+}
+
+.paragraph-normal,
+.paragraph-small {
+    width: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 17px;
+}
+
+.paragraph-title,
+.paragraph-small-title  {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+    font-size: var(--paragraph-title-size);
+    font-weight: var(--normal-weight);
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.paragraph-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--paragraph-big-size);
+    font-weight: var(--light-weight);
+    line-height: 26px;
+    text-align: left;
+    color: var(--secondary-text-color);    
+}
+
+.paragraph-small-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--paragraph-small-size);
+    font-weight: var(--light-weight);
+    line-height: 22px;
+    text-align: left;
+    color: var(--secondary-text-color); 
+}

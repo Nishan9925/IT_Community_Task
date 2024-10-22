@@ -1,0 +1,21 @@
+@import url(./style_vars.css);
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    border-bottom: 1px #2325361F solid;
+    /* background-color: aqua; */
+}
+
+.header-title {
+    font-family: 'Roboto', sans-serif;
+    padding: 44px 110px 44px 110px;
+    font-weight: var(--bold-weight);
+    font-size: var(--secondary-size);
+    color: var(--title-text-color);
+}
+
+.header img {
+    padding: 44px 144px 44px 144px;
+}

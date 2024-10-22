@@ -1,0 +1,8 @@
+@import url(./style_vars.css);
+
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 80px;
+    margin: 56px 110px;
+}
